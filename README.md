@@ -1,32 +1,52 @@
-# Aegis — Superhero Help Portal
+# 🛡️ Aegis — Superhero Help Portal
 
-A machine-test project for the TECHASCENT assessment.
+Aegis is a superhero-themed help portal created as part of the **TECHASCENT Machine Test** by WhiteMatrix Solutions.
 
-## Current version
+The website introduces **Aegis — The Guardian of the Unheard**, a fictional superhero whose mission is to listen to people who feel ignored, helpless, or unheard and connect their concerns to someone who can help.
 
-This version contains:
-- Responsive superhero landing page
-- Original Aegis character/story
-- Powers and mission sections
-- Animated visual effects
-- Conversational chatbot UI
-- Basic input validation
-- Mobile navigation
+## ✨ Features
 
-## Next implementation step
+- Responsive modern superhero-themed landing page
+- Original Aegis character and visual identity
+- Hero section with Aegis branding and call-to-action
+- Interactive origin story and timeline
+- Superpowers and abilities section
+- Mission and purpose section
+- Interactive Aegis chatbot/conversational interface
+- Collects visitor:
+  - Name
+  - Age
+  - Location
+  - Email address
+  - Grievance
+- Basic input validation for age and email
+- Automatic email submission after grievance completion
+- Email includes visitor details, grievance, date, and time
+- Responsive mobile navigation
+- Animated visual effects and UI transitions
 
-Connect the chatbot submission to a backend/email service so that the visitor's:
-- name
-- age
-- location
-- email
-- grievance
-- submission date/time
+## 💬 Aegis Chatbot
 
-are sent automatically to the candidate's email address.
+The chatbot guides visitors through a short conversation to collect their details and understand their grievance.
 
-## Run locally
+After the visitor completes the conversation, the submitted information is automatically sent to the candidate's email address for follow-up.
 
-Open `index.html` in a browser, or use VS Code Live Server.
+## 🛠️ Technologies Used
 
-For the backend/email stage, the project will be moved to a small full-stack setup.
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
+- FormSubmit
+
+## 📁 Project Structure
+
+```text
+aegis-help-portal/
+│
+├── index.html
+├── style.css
+├── script.js
+├── aegis-hero.png
+├── aegis-logo.png
+└── README.md
